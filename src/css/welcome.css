@@ -1,0 +1,29 @@
+.welcome{
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.welcome__logo{
+    height:180px;
+    width:180px;
+    margin-top: 100px;
+}
+
+.welcome__heading{
+    margin-top:35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.welcome__text{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}

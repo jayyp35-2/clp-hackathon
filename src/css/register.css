@@ -1,3 +1,47 @@
-.register{
+.Register{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:45px 30px 18px 30px;
+}
+.Register__Head{
+    display: flex;
+    align-items: center;
+}
+.Register__Heading{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top:12px;
+}
+.Register__Password{
+    display: flex;
+    flex-direction: column;
+}
+.Register--eyeIcon{
+    width:22px;
+    float:right;
+    
+}
+.login-input{
+   border: none;
+   background-color:#E5E5E5;
+   padding:8px 0 9px 20px;
+   box-shadow: 0px 3px 6px #E5E5E5;
+    border-radius: 6px;
+    margin-top:10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.error{
+    margin-top:5px;
+    font-size:14px;
+    text-align: left;
+    padding: 0 5px;
+    color:red;
+    opacity: 0;
 }

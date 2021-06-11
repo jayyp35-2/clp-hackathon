@@ -1,0 +1,50 @@
+.Otp{
+    display:flex;
+    flex-direction: column;
+    padding:45px 30px 18px 30px;
+}
+
+.Otp__Head{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #2A2A30;
+}
+.Otp__Heading{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 12px;
+}
+
+.Otp__Text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top:30px;
+}
+
+.Otp__Number{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+
+.Otp__Resend{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0000EE;
+    margin-top:15px;
+}
+
+input:focus-visible{
+    outline:none ;
+}
